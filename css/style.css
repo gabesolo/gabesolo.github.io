@@ -1,0 +1,73 @@
+nav{
+	background: #EEEEEE;
+	color: black;
+}
+
+.current{
+	background: yellow;
+	color: black;
+}
+
+a:hover{
+	background: blue;
+	color: white;
+}
+
+a:visited {
+  color: black;
+}
+
+ul.quotes{
+  list-style-image: url('/images/signature.PNG');
+  color: black;
+}
+
+img.header_image{
+  float: none;
+  width: 50%;
+  border: 5px solid grey;
+  border-radius: 4px;
+}
+
+img.logo{
+  position: relative;
+  top: -125px;
+  width: 20%;
+}
+
+img.character{
+  width: 10%;
+  border: 5px solid #ddd;
+  border-radius: 4px;
+}
+
+img.button{
+	float: none;
+	width: 20%;
+}
+
+a.skip{
+    position: relative;
+    left: 20000px;
+}
+
+a.skip:focus{
+	left: 10px;
+	border: 2px solid black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font: 32px trajan-pro-1,trajan-pro-2;
+}
+
+footer{
+  font: 10px trajan-pro-1,trajan-pro-2;
+}
+
+body{
+	background-color: #EEEEEE;
+}
