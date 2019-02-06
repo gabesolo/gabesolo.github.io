@@ -1,20 +1,16 @@
 nav{
-	background: #EEEEEE;
-	color: black;
+  background: #EEEEEE;
+  color: black;
 }
 
 .current{
-	background: yellow;
-	color: black;
+  background: yellow;
+  color: black;
 }
 
 a:hover{
-	background: blue;
-	color: white;
-}
-
-a:visited {
-  color: black;
+  background: blue;
+  color: white;
 }
 
 ul.quotes{
@@ -22,33 +18,39 @@ ul.quotes{
   color: black;
 }
 
-img.header_image{
-  float: none;
-  width: 50%;
-  border: 5px solid grey;
-  border-radius: 4px;
+li{
+  margin: 15px 0;
 }
 
-img.logo{
-  position: relative;
-  top: -125px;
-  width: 20%;
+img.header_image{
+  width: 40vw;
+  border: 4px solid grey;
+  border-radius: 3px;
+
+}
+
+img.logo_image{
+  width: 20vw;
+}
+
+section.index-container{
+  display: grid;
+  grid-template-columns: 280px 535px 280px;
 }
 
 img.character{
-  width: 10%;
+  width: 15vw;
   border: 5px solid #ddd;
   border-radius: 4px;
 }
 
 img.button{
-	float: none;
-	width: 20%;
+  width: 20vw;
 }
 
 a.skip{
-    position: relative;
-    left: 20000px;
+  position: relative;
+  left: 20000px;
 }
 
 a.skip:focus{
@@ -61,6 +63,7 @@ h2,
 h3,
 h4,
 h5 {
+  text-indent: 10px;
   font: 32px trajan-pro-1,trajan-pro-2;
 }
 
@@ -69,5 +72,15 @@ footer{
 }
 
 body{
-	background-color: #EEEEEE;
+  background-color: #EEEEEE;
+}
+
+section.container{
+  display: grid;
+  grid-template-columns: 215px 600px;
+  margin: 5px;
+}
+
+section.container{
+  font: 16px trajan-pro-1,trajan-pro-2;
 }
