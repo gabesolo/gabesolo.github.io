@@ -33,9 +33,15 @@ img.logo_image{
   width: 20vw;
 }
 
-section.index-container{
+
+div.index-container{
   display: grid;
   grid-template-columns: 280px 535px 280px;
+}
+
+div.theme-container{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
 }
 
 img.character{
@@ -75,12 +81,12 @@ body{
   background-color: #EEEEEE;
 }
 
-section.container{
+div.container{
   display: grid;
   grid-template-columns: 215px 600px;
   margin: 5px;
 }
 
-section.container{
+div.container{
   font: 16px trajan-pro-1,trajan-pro-2;
 }
