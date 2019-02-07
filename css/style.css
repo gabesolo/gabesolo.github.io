@@ -3,6 +3,11 @@ nav{
   color: black;
 }
 
+body{
+  background-image: url("images/quotes_background.JPG");
+  background-size: cover;
+}
+
 .current{
   background: yellow;
   color: black;
@@ -14,7 +19,7 @@ a:hover{
 }
 
 ul.quotes{
-  list-style-image: url('/images/signature.PNG');
+  list-style-image: url('images/signature.PNG');
   color: black;
 }
 
@@ -41,7 +46,7 @@ div.index-container{
 
 div.theme-container{
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px;
 }
 
 img.character{
@@ -64,21 +69,13 @@ a.skip:focus{
 	border: 2px solid black;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1{
   text-indent: 10px;
   font: 32px trajan-pro-1,trajan-pro-2;
 }
 
 footer{
   font: 10px trajan-pro-1,trajan-pro-2;
-}
-
-body{
-  background-color: #EEEEEE;
 }
 
 div.container{
