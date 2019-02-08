@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700i');
 
 .nav{
   margin-left: 220px;
   margin-right: 220px;
 }
 
- .nav {
-    font-size: 120%;
-    font-family: 'Muli';
-    display: flex;
-    justify-content: center;
-    padding-bottom: : 25px;
+.nav {
+  font-size: 120%;
+  font-family: 'Muli';
+  display: flex;
+  justify-content: center;
+  padding-bottom: : 25px;
 }
 
 .nav a{
@@ -39,7 +41,6 @@ a:hover{
   color: white;
 }
 
-
 ul.quotes{
   list-style-image: url('../images/kramer_head.png');
   color: black;
@@ -47,6 +48,7 @@ ul.quotes{
 
 li{
   margin: 15px 0;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 img.header_image{
@@ -95,13 +97,13 @@ a.skip:focus{
 }
 
 h1{
-  text-indent: 10px;
-  font: 32px trajan-pro-1,trajan-pro-2;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 32px;
 }
 
 footer{
-  font: 10px trajan-pro-1,trajan-pro-2;
-  margin-left: 220px;
+  font-family: 'Libre Franklin', sans-serif;
+  margin-left: 230px;
 }
 
 div.container{
@@ -110,11 +112,15 @@ div.container{
   margin: 5px;
 }
 
-div.container{
-  font: 16px trajan-pro-1,trajan-pro-2;
+p{
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 main.home{
-  margin-left: 220px;
-  margin-right: 220px;
+  margin-left: 230px;
+  margin-right: 225px;
+}
+
+.reocurring{
+  text-indent: 220px;
 }
