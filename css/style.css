@@ -1,25 +1,47 @@
-nav{
-  background: #EEEEEE;
-  color: black;
+
+.nav{
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+ .nav {
+    font-size: 120%;
+    font-family: 'Muli';
+    display: flex;
+    justify-content: center;
+    padding-bottom: : 25px;
+}
+
+.nav a{
+  padding: 8px;
+  color: red;
+  background-color: #F1DA42;
 }
 
 body{
-  background-image: url("images/quotes_background.JPG");
-  background-size: cover;
-}
-
-.current{
-  background: yellow;
-  color: black;
+  background: #DBEEF1;
 }
 
 a:hover{
+  background: green;
+  color: white;
+}
+
+.wp{
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.nav .current{
   background: blue;
   color: white;
 }
 
+
 ul.quotes{
-  list-style-image: url('images/signature.PNG');
+  list-style-image: url('../images/kramer_head.png');
   color: black;
 }
 
@@ -35,7 +57,10 @@ img.header_image{
 }
 
 img.logo_image{
-  width: 20vw;
+  width: 25vw;
+  display: block;
+  margin: 0 auto;
+  padding: 25px;
 }
 
 
@@ -76,6 +101,7 @@ h1{
 
 footer{
   font: 10px trajan-pro-1,trajan-pro-2;
+  margin-left: 220px;
 }
 
 div.container{
@@ -86,4 +112,9 @@ div.container{
 
 div.container{
   font: 16px trajan-pro-1,trajan-pro-2;
+}
+
+main.home{
+  margin-left: 220px;
+  margin-right: 220px;
 }
