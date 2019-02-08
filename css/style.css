@@ -134,6 +134,7 @@ div.randomquote{
 
 ul{
   font-family: 'Libre Franklin', sans-serif;
+  list-style-image: url("images/kramer_head.png");
 }
 
 li{
