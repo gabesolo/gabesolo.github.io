@@ -125,12 +125,12 @@ main.home{
   text-indent: 220px;
 }
 
-.randomquote{
- font-family: 'Libre Franklin', sans-serif;
- font-size: 32px;
-}
-
 div.quote_container{
   display: grid;
   grid-template-columns: 270px 730px;
+}
+
+.randomquote{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 32px;
 }
