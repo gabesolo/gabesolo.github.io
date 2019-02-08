@@ -130,7 +130,7 @@ div.quote_container{
   grid-template-columns: 270px 730px;
 }
 
-.randomquote{
+div.randomquote{
   font-family: 'Libre Franklin', sans-serif;
   font-size: 32px;
 }
