@@ -5,15 +5,10 @@
 .nav{
   margin-left: 220px;
   margin-right: 220px;
-}
-
-.nav {
   display: flex;
   justify-content: center;
   padding-bottom: : 50px;
   border: 3px;
-  border-style: solid;
-  border-radius: 3px;
 }
 
 .nav a{
@@ -22,7 +17,14 @@
   background-color: #F1DA42;
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 44px;
+  text-align: center;
+  border-bottom: 2px;
+  border-top: 2px;
+  border-left: 1px;
+  border-right: 1px;
+  border-style: solid;
+  border-color: blue;
+  width: 80px;
 }
 
 header{
@@ -35,13 +37,6 @@ body{
 
 a:hover{
   background: green;
-}
-
-.wp{
-  background-image: url("../images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .nav .current{
@@ -69,12 +64,15 @@ div.index-container{
 }
 
 div.theme-container{
-  display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
+  display:flex;
+  display:-webkit-flex; 
+  flex-flow: wrap;
+  justify-content: space-between;
+  width: 300px;
 }
 
 img.character{
-  width: 15vw;
+  width: 30vw;
   border: 5px solid #ddd;
   border-radius: 4px;
 }
@@ -103,9 +101,9 @@ footer{
   margin-left: 230px;
 }
 
-div.container{
+div.character_container{
   display: grid;
-  grid-template-columns: 215px 600px;
+  grid-template-columns: 315px 600px;
   margin: 5px;
 }
 
@@ -169,4 +167,13 @@ li{
   opacity: 0;
   width: 100px;
   height: 140px;
+}
+
+@media (min-width: 769px) {
+  .wp{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
