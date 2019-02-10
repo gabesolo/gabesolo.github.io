@@ -32,7 +32,7 @@ header{
 }
 
 body{
-  background: #DBEEF1;
+  background: #D5E6EE;
 }
 
 a:hover{
@@ -72,7 +72,7 @@ div.theme-container{
 }
 
 img.character{
-  width: 30vw;
+  width: 20vw;
   border: 5px solid #ddd;
   border-radius: 4px;
 }
@@ -103,12 +103,13 @@ footer{
 
 div.character_container{
   display: grid;
-  grid-template-columns: 315px 600px;
+  grid-template-columns: 315px 800px;
   margin: 5px;
 }
 
 p{
   font-family: 'Libre Franklin', sans-serif;
+  font-size: 26px;
 }
 
 main.home{
@@ -117,7 +118,7 @@ main.home{
 }
 
 .reocurring{
-  text-indent: 220px;
+  text-indent: 319px;
 }
 
 div.quote_container{
@@ -167,6 +168,10 @@ li{
   opacity: 0;
   width: 100px;
   height: 140px;
+}
+
+br {
+  line-height: 200%;
 }
 
 @media (min-width: 769px) {
