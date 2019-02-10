@@ -65,7 +65,6 @@ div.index-container{
 
 div.theme-container{
   display:flex;
-  display:-webkit-flex; 
   flex-flow: wrap;
   justify-content: space-between;
   width: 300px;
@@ -73,6 +72,7 @@ div.theme-container{
 
 img.character{
   width: 220px;
+  height: auto;
   border: 5px solid #ddd;
   border-radius: 4px;
 }
@@ -102,9 +102,9 @@ footer{
 }
 
 div.character_container{
-  display: grid;
-  grid-template-columns: 315px 800px;
-  margin: 5px;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
 }
 
 p{
