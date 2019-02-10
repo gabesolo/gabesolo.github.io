@@ -8,9 +8,10 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/html5reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<title>Quotes</title>
 	</head>
-	<body>
+	<body onload="newQuote()">
 		<a href= "#content" class="skip">Skip To Content</a>
 
 		<header>
@@ -27,18 +28,18 @@
 			<br>
 			<div class = quote_container>
 				<div>
-					<h1 id="content">Ramdom Quote:</h1>
+					<h1 id="content">Ramdom Quote:</h1><br>
 					<button onclick="newQuote()">New Quote</button>
 					<script src="javascript.js"></script>
 				</div>
 				<div class="randomquote">
-					<div id="quoteDisplay">
+					<div class="tp" id="quoteDisplay">
 
 					</div>
 				</div>
 			</div>
-			<div>
-				<ul class="quotes">
+			<div class="quotes">
+				<ul>
 					<li>Boy, these pretzels are makin' me thirsty. –Kramer</li>
 
 					<li>If you know what happened in the Mets game don't tell me, I taped it. Hello? – Jerry Seinfeld</li>
@@ -125,8 +126,8 @@
 		</main>
 
 		<footer>
-		  <p>Created by: Gabe Solomon</p>
-		  <a href= "#top">Back to top</a>
+		  <p>Created by: Gabe Solomon
+		  <a href= "#top"><i class="fas fa-arrow-alt-circle-up"></i></a></p>
 		</footer>
 	</body>
 </html>
