@@ -176,7 +176,10 @@ button.quotebtn{
   border-color: #B0F8B4;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 22px;
-  list-style-image: url("images/kramer_head.png");
+}
+
+.play:hover{
+  width: 60%;
 }
 
 .play {
@@ -189,7 +192,7 @@ button.quotebtn{
   height: auto;
 }
 
-.play .btn {
+.play .btn{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -199,8 +202,8 @@ button.quotebtn{
   cursor: pointer;
   border-radius: 5px;
   opacity: 0;
-  width: 100px;
-  height: 140px;
+  width: 180px;
+  height: 220px;
 }
 
 .tp{
@@ -264,6 +267,24 @@ button.quotebtn{
   .logo-image{
     width: 60vw;
     margin: 80px;
+  }
+
+  .play{
+    width: 250px;
+  }
+
+  .play .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0;
+    width: 120px;
+    height: 150px;
   }
 }
 
