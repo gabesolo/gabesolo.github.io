@@ -243,6 +243,12 @@ button.quotebtn{
     flex-flow: wrap;
     justify-content: center;
   }
+  body{
+    background-image: url("../images/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
 .tp{
@@ -258,17 +264,17 @@ button.quotebtn{
   text-align: center;
 }
 
-body{
-  background-image: url("../images/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 @media (min-width: 981px){
   div.theme-container{
     display: flex;
     flex-flow: nowrap;
     justify-content: center;
+  }
+
+  body{
+  background-image: url("../images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
