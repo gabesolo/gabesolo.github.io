@@ -99,17 +99,9 @@ a.skip:focus{
 
 h1{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 50px;
-  color: #B0F8B4;
-  -webkit-text-stroke: .5px black;
-}
-
-h2{
-  font-family: 'Ubuntu', sans-serif;
   font-size: 55px;
   color: #B0F8B4;
   -webkit-text-stroke: .5px black;
-  margin-bottom: 10px;
 }
 
 footer{
