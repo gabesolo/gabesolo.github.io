@@ -11,19 +11,17 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<title>Quotes</title>
 	</head>
-	<body onload="newQuote()">
+	<body onload="newQuote()" id="top">
 		<a href= "#content" class="skip">Skip To Content</a>
-
 		<header>
-			<div class="nav" id="top">
+			<div class="nav">
 			  	<a href="index.html">Index</a>
 			  	<a href="characters.html">Characters</a>
 			  	<a href="theme.html">Theme</a>
 			  	<a href="quotes.html" class = "current" >Quotes</a>
 			</div>
 		</header>
-		
-		<main>
+		<main class="quotes">
 			<br>
 			<br>
 			<div class = quote_container>
@@ -125,9 +123,9 @@
 			</div>
 		</main>
 
-		<footer>
+		<footer class="banner">
 		  <p>Created by: Gabe Solomon
-		  <a href= "#top"><i class="fas fa-arrow-alt-circle-up"></i></a></p>
+		  <a href= "#top"><i class="fas fa-arrow-alt-circle-up" alt="Back To Top"></i></a></p>
 		</footer>
 	</body>
 </html>

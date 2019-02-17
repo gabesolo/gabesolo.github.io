@@ -2,72 +2,77 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700i');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .nav{
-  margin-left: 220px;
-  margin-right: 220px;
   display: flex;
-  justify-content: center;
-  padding-bottom: : 50px;
+  align-content: flex-start;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: url("../images/navbg.jpg");
+  border-bottom: 5px;
+  border-color: #F5F5C7;
+  border-style: solid;
 }
 
 .nav a{
-  padding: 15px;
-  color: red;
-  background-color: #F1DA42;
+  padding: 10px;
+  color: #FFD2F9;
+  background-color: #2EC8E0;
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 22px;
   text-align: center;
-  border-bottom: 1px;
-  border-top: 1px;
-  border-left: .6px;
-  border-right: .6px;
-  border-style: solid;
-  border-color: black;
-  width: 100px;
+  width: 150px;
 }
 
 header{
-  padding-bottom: 20px;
+  border-style: solid;
+  border: 10px;
+  border-color: blue;
+  border-radius: 10px;
 }
 
 body{
   background: #D5E6EE;
 }
+body.bg{
+  background-image: url("../images/bg4.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
 
 a:hover{
-  background: green;
+  background: #3B9CB0;
+}
+
+.characters{
+  margin-top: 27px;
+  margin-bottom: 50px;
 }
 
 .nav .current{
-  background: blue;
+  background: #1C7887;
 }
 
-img.header_image{
-  width: 40vw;
-  border: 4px solid grey;
-  border-radius: 3px;
-
-}
-
-img.logo_image{
+.logo_image{
   width: 25vw;
-  display: block;
-  margin: 0 auto;
-  padding: 25px;
 }
 
-
-div.index-container{
-  display: grid;
-  grid-template-columns: 280px 535px 280px;
+.home{
+  margin-top: 40px;
 }
 
 img.character{
-  width: 240px;
-  height: auto;
-  margin: 25px;
+  width: 200px;
+  height: 100%;
+  margin-right: 25px;
+  border: 5px;
+  border-radius: 5px;
+  border-color: #F5F5C7;
+  border-style: solid;
 }
 
 div.character_container{
@@ -75,12 +80,11 @@ div.character_container{
   flex-flow: nowrap;
   align-content: center;
   align-self: center;
-  object-fit: flex-start;
-  margin: 15px;
+  padding: 15px;
 }
 
-div.character_container div{
-  margin-top: 20px;
+div.character_container div h1{
+  margin-bottom: 15px;
 }
 
 img.button{
@@ -89,7 +93,7 @@ img.button{
 
 a.skip{
   position: relative;
-  left: -200px;
+  left: -350px;
 }
 
 a.skip:focus{
@@ -99,7 +103,7 @@ a.skip:focus{
 
 h1{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 55px;
+  font-size: 52px;
   color: #B0F8B4;
   -webkit-text-stroke: .5px black;
 }
@@ -108,13 +112,17 @@ footer{
   font-family: 'Libre Franklin', sans-serif;
   text-align: center;
   color: #FFD2F9;
-  margin: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
 }
 
 p{
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 26px;
- -webkit-text-stroke: .5px black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  -webkit-text-stroke: .5px black;
+  word-spacing: 3px;
 }
 
 main.home{
@@ -133,6 +141,7 @@ div.quote_container{
   padding-bottom: 20px;
   display: grid;
   grid-template-columns: 270px 730px;
+  margin-top: -20px;
 }
 
 div.randomquote{
@@ -145,8 +154,8 @@ div.randomquote{
 .quotes{
   align-content: center;
   background: rgba(200, 250, 250, 0.8);
-  border-top: 3px;
-  border-bottom: 3px; 
+  border-top: 5px;
+  border-bottom: 5px; 
   border-color: #F5F5C7;
   border-style: solid;
 }
@@ -160,14 +169,14 @@ li{
   padding: 30px;
 }
 
-button.quotebtn{
+.quote_container button{
   background-color: #B0F8B4;
-  border: 3px;
   border-style: solid;
-  border-radius: 3px;
-  border-color: #B0F8B4;
+  border-width: 3px;
+  border-radius: 15px;
+  border-color: #54c08b;
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .play {
@@ -176,7 +185,7 @@ button.quotebtn{
 }
 
 .play img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -188,19 +197,30 @@ button.quotebtn{
   -ms-transform: translate(-50%, -50%);
   border: none;
   cursor: pointer;
-  border-radius: 5px;
   opacity: 0;
-  width: 180px;
-  height: 220px;
+  width: 170px;
+  height: 210px;
 }
 
 .tp{
   background: rgba(200, 250, 250, 0.8);
-  border: 3px;
-  border-radius: 3px;
+  border: 5px;
+  border-radius: 5px;
   border-color: #F5F5C7;
   border-style: solid;
-  padding: 10px;
+  padding-right: 5px;
+  padding-left: 8px;
+}
+
+.banner{
+  background: rgba(200, 250, 250, 0.8);
+  border-top: 5px;
+  border-bottom: 5px;
+  border-color: #F5F5C7;
+  border-style: solid;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .welcome{
@@ -209,9 +229,8 @@ button.quotebtn{
 
 @media (max-width: 980px){
   .nav a{
-    padding: 15px;
-    color: red;
-    background-color: #F1DA42;
+    color: #FFD2F9;
+    background-color: #2EC8E0;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 44px;
@@ -235,8 +254,12 @@ button.quotebtn{
 
   img.character{
     width: auto;
-    height: 50vw;
+    height: 50vw; 
     margin-bottom: 25px;
+    border: 5px;
+    border-radius: 5px;
+    border-color: #F5F5C7;
+    border-style: solid;
   }
 
   div.theme-container{
@@ -250,15 +273,20 @@ button.quotebtn{
     background-size: 100%;
     background-repeat: repeat;
     background-attachment: fixed;
+    line-height: 1.3;
+  }
+
+  body.blur{
+    background-image: url("../images/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 1.3;
   }
 
   .logo-image{
     width: 60vw;
-    margin: 80px;
-  }
-
-  .play{
-    width: 250px;
+    padding: 80px;
   }
 
   .play .btn{
@@ -271,8 +299,8 @@ button.quotebtn{
     cursor: pointer;
     border-radius: 5px;
     opacity: 0;
-    width: 190px;
-    height: 240px;
+    width: 160px;
+    height: 220px;
   }
 }
 
@@ -284,10 +312,11 @@ button.quotebtn{
   }
 
   body{
-    background-image: url("../images/bg.png");
+    background: #48A2B7;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    line-height: 1.3;
   }
 
   .logo-image{

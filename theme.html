@@ -8,7 +8,7 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/html5reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>theme</title>
+		<title>Theme</title>
 	</head>
 	<body>
 		<a href= "#content" class="skip">Skip To Content</a>
@@ -21,13 +21,17 @@
 			</div>
 		</header>
 		<main id="content">
-			<div>
-				<h1>Play the Seinfeld Theme Song!</h1>
-				<p>Play around with the buttons below and make the theme song your own!</p>
+			<br>
+			<div class="center">
+				<div class="banner">
+					<h1>Play the Seinfeld Theme Song!</h1>
+					<p>Play around with the buttons below and make the theme song your own!</p>
+				</div>
 			</div>
-			<div class="theme-container">
+			<br>
+			<div class="theme-container" id="song">
 				<div class="play">
-					<img src="images/kramer_red.png" class="kramer-head" alt="Kramer">
+					<img src="images/kramer_red.png" class="kramer-head" alt="Kramer" id="button1">
 					<audio id="0" src="audio/0.wav"></audio>
 					<button class="btn" onclick="document.getElementById('0').play()"></button>
 				</div>
@@ -68,7 +72,7 @@
 				</div>
 			</div>
 		</main>
-		<footer>
+		<footer class="banner">
 		  <p>Created by: Gabe Solomon</p>
 		</footer>
 	</body>
