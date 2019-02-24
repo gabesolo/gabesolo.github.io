@@ -336,8 +336,8 @@ li{
   }
 
   div.theme-container{
-    display: flex;
-    flex-flow: wrap;
+    display: grid;
+    grid-template-columns: 200px auto;
     margin-top: 50px;
   }
 
@@ -361,8 +361,8 @@ li{
 @media (min-width: 481px) and (max-width: 1199px){
 
   div.theme-container{
-    display: flex;
-    flex-flow: wrap;
+    display: grid;
+    grid-template-columns: 200px auto;
     margin-top: 50px;
   }
 
