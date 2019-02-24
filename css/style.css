@@ -337,7 +337,7 @@ li{
 
   div.theme-container{
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 200px 500px;
     margin-top: 50px;
   }
 
