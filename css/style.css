@@ -306,13 +306,15 @@ li{
   div.theme-container{
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: center;
   }
 }
 
-@media (min-width: 481px){
+@media (min-width: 481px) and (max-width: 1199px){
   div.theme-container{
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-content: center;
   }
   footer{
     padding: 20px;
