@@ -335,9 +335,9 @@ li{
     height: 240px;
   }
 
-  div.theme-container{
+  .theme-container{
     display: grid;
-    grid-template-columns: 200px 500px;
+    grid-template-columns: 200px 700px;
     margin-top: 50px;
   }
 
@@ -360,7 +360,7 @@ li{
 
 @media (min-width: 481px) and (max-width: 1199px){
 
-  div.theme-container{
+  .theme-container{
     display: grid;
     grid-template-columns: 200px 700px;
     margin-top: 50px;
