@@ -140,6 +140,10 @@ main.home{
   text-align: center;
 }
 
+.play img{
+  height: 10vh;
+  width: auto;
+}
 
 div.quote_container{
   padding-left: 10px;
@@ -181,11 +185,6 @@ li{
   border-color: #54c08b;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 26px;
-}
-
-.play {
-  position: relative;
-  width: auto;
 }
 
 .play .btn{
@@ -234,10 +233,6 @@ li{
 }
 
 @media (max-width: 1199px){
-  .play{
-    width: 110%;
-  }
-
   .nav a{
     color: #FFD2F9;
     background-color: #2EC8E0;
@@ -307,12 +302,7 @@ li{
     height: 240px;
   }
 
-  .play img {
-    width: auto;
-    height: auto;
-  }
-
-    footer{
+  footer{
     padding: 20px;
     font-size: 30px;
   }
