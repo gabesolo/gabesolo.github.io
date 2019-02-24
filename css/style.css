@@ -168,7 +168,7 @@ li{
   font-size: 40px;
   border-bottom: 5px;
   border-style: dashed;
-  border-color: #FFD2F9;
+  border-color: black;
   padding: 30px;
 }
 
@@ -321,6 +321,10 @@ li{
   div.theme-container{
     display: grid;
     grid-template-columns: auto auto auto;
+  }
+  footer{
+    padding: 20px;
+    font-size: 30px;
   }
 }
 
