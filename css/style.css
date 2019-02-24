@@ -310,7 +310,7 @@ li{
   }
 
   .play img {
-    width: 50%;
+    width: 60%;
     height: auto;
   }
 
@@ -337,7 +337,7 @@ li{
 
   .theme-container{
     display: grid;
-    grid-template-columns: 200px 700px;
+    grid-template-columns: 300px 700px;
     margin-top: 50px;
   }
 
@@ -362,7 +362,7 @@ li{
 
   .theme-container{
     display: grid;
-    grid-template-columns: 200px 700px;
+    grid-template-columns: 300px 700px;
     margin-top: 50px;
   }
 
