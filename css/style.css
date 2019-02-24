@@ -309,12 +309,13 @@ li{
   .theme-container{
     display: grid;
     grid-template-columns: 600px auto;
+    margin-top: -15px;
   }
 
   .theme-info{
-    display: flex;
-    flex-flow: wrap;
-    width: 100%
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px auto;
   }
 
   .videos{
