@@ -32,6 +32,7 @@ header{
   border: 10px;
   border-color: blue;
   border-radius: 10px;
+  z-index: 99;
 }
 
 body{
@@ -230,6 +231,10 @@ li{
   text-align: center;
 }
 
+.theme-container{
+  padding-bottom: 50px;
+}
+
 @media (max-width: 1199px){
   .nav a{
     color: #FFD2F9;
@@ -355,7 +360,7 @@ li{
 
   body{
     background: #48A2B7;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .logo-image{
