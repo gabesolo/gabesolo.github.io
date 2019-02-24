@@ -185,12 +185,7 @@ li{
 
 .play {
   position: relative;
-  width: 50%;
-}
-
-.play img {
-  width: 90%;
-  height: auto;
+  width: auto;
 }
 
 .play .btn{
@@ -233,6 +228,9 @@ li{
 
 .theme-container{
   padding-bottom: 50px;
+}
+.buttons{
+  z-index: -1;
 }
 
 @media (max-width: 1199px){
@@ -310,7 +308,7 @@ li{
   }
 
   .play img {
-    width: 60%;
+    width: auto;
     height: auto;
   }
 
@@ -354,7 +352,7 @@ li{
   }
 
   .buttons{
-    height: 100%;
+    height: 90vh%;
   }
 }
 
@@ -379,7 +377,7 @@ li{
   }
 
   .buttons{
-    height: 100%;
+    height: 90vh;
   }
 }
 
@@ -394,6 +392,7 @@ li{
   .buttons{
     display: grid;
     grid-template-columns: auto auto;
+    height: 90vh;
   }
   
 
