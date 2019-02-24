@@ -116,6 +116,14 @@ footer{
   bottom: 0;
   width: 100%;
   margin-top: 20px;
+  background-color: #2EC8E0;
+  border-top: 5px;
+  border-bottom: 5px;
+  border-color: #F5F5C7;
+  border-style: solid;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 p{
@@ -131,10 +139,6 @@ main.home{
   text-align: center;
 }
 
-.reocurring{
-  text-align: center;
-  font-size: 54px;
-}
 
 div.quote_container{
   padding-left: 10px;
@@ -264,13 +268,6 @@ li{
     border-style: solid;
   }
 
-  div.theme-container{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-content: center;
-  }
-
   body{
     background-image: url("../images/bg2.jpg");
     background-size: 100%;
@@ -313,7 +310,22 @@ li{
   }
 }
 
-@media (min-width: 981px){
+@media (max-width: 767px){
+  div.theme-container{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 1000px){
+  div.theme-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+
+@media (min-width: 1001px){
   div.theme-container{
     display: flex;
     flex-flow: nowrap;
