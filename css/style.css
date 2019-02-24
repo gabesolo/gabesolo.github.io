@@ -309,7 +309,7 @@ li{
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 481px){
   div.theme-container{
     display: grid;
     grid-template-columns: auto auto auto;
