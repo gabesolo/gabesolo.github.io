@@ -265,7 +265,7 @@ li{
   }
 }
 
-@media (min-width: 300px) and (max-width: 480px){
+@media (min-width: 300px){
   .theme-container{
     padding-top: 60px;
     display: flex;
@@ -274,7 +274,7 @@ li{
   .theme-info{
     display: flex;
     flex-flow: wrap;
-    padding-bottom: 164px;
+    padding-bottom: 629px;
   }
   .videos{
     display: flex;
@@ -287,7 +287,7 @@ li{
   }
 }
 
-@media (min-width: 481px) and (max-width: 1199px){
+@media (min-width: 600px){
   .theme-container{
     padding-top: 28px;
     display: flex;
@@ -295,6 +295,8 @@ li{
   }
   .theme-info{
     display: flex;
+    flex-flow: nowrap;
+    padding-bottom: -629px;
   }
   .videos{
     display: flex;
