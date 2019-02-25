@@ -265,7 +265,7 @@ li{
   }
 }
 
-@media (min-width: 300px){
+@media (min-width: 300px) and (max-width: 599px){
   .theme-container{
     padding-top: 60px;
     display: flex;
@@ -296,7 +296,6 @@ li{
   .theme-info{
     display: flex;
     flex-flow: nowrap;
-    padding-bottom: -629px;
   }
   .videos{
     display: flex;
