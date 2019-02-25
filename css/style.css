@@ -279,15 +279,15 @@ li{
   .videos{
     display: flex;
     flex-flow: wrap;
-    width: 100%
+    width: 100%;
   }
   .video{
     width: 100%;
-    height: 100%
+    height: 100%;
   }
 }
 
-@media (min-width: 600px){
+@media (min-width: 600px) and (max-width: 1199px){
   .theme-container{
     padding-top: 28px;
     display: flex;
@@ -300,11 +300,11 @@ li{
   .videos{
     display: flex;
     flex-flow: wrap;
-    width: 100%
+    width: 100%;
   }
   .video{
     width: 100%;
-    height: 100%
+    height: 100%;
   }
 }
 
@@ -324,11 +324,11 @@ li{
   .videos{
     display: flex;
     flex-flow: wrap;
-    width: 100%
+    width: 100%;
   }
 
   .video{
-    width: 100%
+    width: 100%;
   }
 
   body{
