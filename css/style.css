@@ -39,12 +39,6 @@ header{
 body{
   background: #D5E6EE;
 }
-body.bg{
-  background-image: url("../images/bg4.jpg");
-  background-size: 100%;
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
 
 a:hover{
   background: #3B9CB0;
