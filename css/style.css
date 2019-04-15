@@ -205,6 +205,10 @@ li{
 }
 
 @media (max-width: 1199px){
+  .flip-card-front, .flip-card-back {
+  font-size: 18px;
+}
+
   .tp{
     font-size: 20px;
   }
@@ -285,7 +289,7 @@ li{
 }
 
 @media (min-width: 681px) and (max-width: 1199px){
-  .theme-container .theme-container2 .theme-container3{
+  .theme-container .theme-containerA .theme-containerB{
     display: grid;
     grid-template-columns: auto auto;
   }
