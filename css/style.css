@@ -94,8 +94,8 @@ a.skip{
 }
 
 a.skip:focus{
-	left: 10px;
-	border: 2px solid black;
+  left: 10px;
+  border: 2px solid black;
 }
 
 h1{
@@ -123,7 +123,7 @@ footer{
   padding-bottom: 10px;
 }
 
-p{
+.panel p{
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   -webkit-text-stroke: .5px black;
@@ -198,8 +198,6 @@ li{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .welcome{
@@ -477,4 +475,68 @@ li{
   border-radius: 5px;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 30px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 80%;
+  height: 200px;
+  perspective: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background: rgba(200, 250, 250, 0.8);
+  border: 5px;
+  border-radius: 5px;
+  border-color: #F5F5C7;
+  border-style: solid;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 40px;
+  background-color: #2980b9;
+  z-index: 2;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.flip-card-back {
+  background-color: #2EC8E0;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+  border: 5px;
+  border-radius: 5px;
+  border-color: #F5F5C7;
+  border-style: solid;
+  padding: 15px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
 }
