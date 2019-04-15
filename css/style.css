@@ -305,12 +305,12 @@ li{
     grid-template-columns: 700px auto;
   }
 
-  .theme-container2{
+  .theme-containerA{
     display: grid;
     grid-template-columns: auto auto;
   }
 
-  .theme-container3{
+  .theme-containerB{
     display: grid;
     grid-template-columns: auto 700px;
   }
