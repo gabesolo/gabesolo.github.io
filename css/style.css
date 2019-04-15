@@ -272,21 +272,12 @@ li{
 }
 
 @media (min-width: 300px) and (max-width: 680px){
-  .theme-container{
-    margin-top: -15px;
-    display: flex;
-    flex-flow: wrap;
-  }
-  .theme-info{
-    display: flex;
-    flex-flow: wrap;
-    padding-bottom: 629px;
-  }
-  .videos{
-    display: flex;
+  .theme-  .theme-container .theme-container2 .theme-container3{
+    display: block;
     flex-flow: wrap;
     width: 100%;
   }
+
   .video{
     width: 100%;
     height: 100%;
@@ -294,20 +285,11 @@ li{
 }
 
 @media (min-width: 681px) and (max-width: 1199px){
-  .theme-container{
-    margin-top: -10px;
-    display: flex;
-    flex-flow: wrap;
+  .theme-container .theme-container2 .theme-container3{
+    display: grid;
+    grid-template-columns: auto auto;
   }
-  .theme-info{
-    display: flex;
-    flex-flow: nowrap;
-  }
-  .videos{
-    display: flex;
-    flex-flow: wrap;
-    width: 100%;
-  }
+
   .video{
     width: 100%;
     height: 100%;
@@ -320,24 +302,22 @@ li{
 @media (min-width: 1200px){
   .theme-container{
     display: grid;
-    grid-template-columns: 600px auto;
-    margin-top: -15px;
+    grid-template-columns: 700px auto;
   }
 
-  .theme-info{
+  .theme-container2{
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 200px auto;
+    grid-template-columns: auto auto;
   }
 
-  .videos{
-    display: flex;
-    flex-flow: wrap;
-    width: 100%;
+  .theme-container3{
+    display: grid;
+    grid-template-columns: auto 700px;
   }
 
   .video{
     width: 100%;
+    height: 200px;
   }
 
   body{
@@ -478,6 +458,7 @@ li{
 }
 
 .cards{
+  margin-left: 140px;
   display: grid;
   grid-template-columns: auto auto;
 }
@@ -521,7 +502,7 @@ li{
   border-style: solid;
   padding-right: 5px;
   padding-left: 5px;
-  font-size: 40px;
+  font-size: 30px;
   background-color: #2980b9;
   z-index: 2;
   font-family: 'Josefin Sans', sans-serif;
