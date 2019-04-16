@@ -10,11 +10,15 @@
 	<body id="top">
 		<a href= "#content" class="skip" tabindex="0">Skip To Content</a>
 		<header>
-			<div class="nav">
+			<div class="topnav" id="myTopnav">
 			  	<a href="index.html">Index</a>
 			  	<a href="characters.html"  class = "current">Characters</a>
 			  	<a href="theme.html">Theme</a>
 			  	<a href="quotes.html">Quotes</a>
+			  	<a href="javascript:void(0);" class="icon" onclick="navmenu()">
+			  	<i class="fas fa-chevron-circle-down" id="expand"></i>
+    			<script src="javascript.js"></script>
+  				</a>
 			</div>
 		</header>
 		<main class="characters">
@@ -81,26 +85,8 @@
 		<div class="panel">
 		<p>Jerry's mother, often needed to provide reason to Jerry's and Morty's eccentric lifestyle, though overprotective of Jerry and often refuses point-blank to do anything that would place him at inconvenience. She is the only secondary character to appear in all nine seasons.</p>
 		</div>
-
+	<script src="javascript.js"></script>
 	</main>
-
-	<script>
-		var acc = document.getElementsByClassName("accordion");
-		var i;
-
-		for (i = 0; i < acc.length; i++) {
-		  acc[i].addEventListener("click", function() {
-		    this.classList.toggle("active");
-		    var panel = this.nextElementSibling;
-		    if (panel.style.maxHeight){
-		      panel.style.maxHeight = null;
-		    } else {
-		      panel.style.maxHeight = panel.scrollHeight + "px";
-		    } 
-		  });
-		}
-	</script>
-
 	</body>
 	<footer>
 		  Created by: Gabe Solomon

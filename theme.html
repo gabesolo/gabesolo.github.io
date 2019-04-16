@@ -9,16 +9,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/html5reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<title>Theme</title>
 	</head>
 	<body>
 		<a href= "#content" class="skip" tabindex="0">Skip To Content</a>
 		<header>
-			<div class="nav">
+			<div class="topnav" id="myTopnav">
 			  	<a href="index.html">Index</a>
 			  	<a href="characters.html">Characters</a>
 			  	<a href="theme.html" class = "current" >Theme</a>
 			  	<a href="quotes.html">Quotes</a>
+			  	<a href="javascript:void(0);" class="icon" onclick="navmenu()">
+			  	<i class="fas fa-chevron-circle-down" id="expand"></i>
+    			<script src="javascript.js"></script>
+  				</a>
 			</div>
 		</header>
 		<main id="content">
@@ -37,7 +42,7 @@
 			<div class="theme-containerB">
 				<iframe src="https://www.youtube.com/embed/rJ9f_sl5qbo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="video" title="theme4" allowfullscreen></iframe>
 
-				<h1 class="banner" id="bottom">Did You Know Every Episode Intro Had Different Music?</h1>
+				<h1 class="banner">Did You Know Every Episode Intro Had Different Music?</h1>
 			</div>
 
 			<div class="cards">

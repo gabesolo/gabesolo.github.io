@@ -15,33 +15,32 @@
 	<body id="top">
 		<a href= "#content" class="skip" tabindex="0">Skip To Content</a>
 		<header>
-			<div class="nav">
+			<div class="topnav" id="myTopnav">
 			  	<a href="index.html">Index</a>
 			  	<a href="characters.html">Characters</a>
 			  	<a href="theme.html">Theme</a>
 			  	<a href="quotes.html" class = "current" >Quotes</a>
+			  	<a href="javascript:void(0);" class="icon" onclick="navmenu()">
+			  	<i class="fas fa-chevron-circle-down" id="expand"></i>
+    			<script src="javascript.js"></script>
+  				</a>
 			</div>
 		</header>
 		<main class="quotes">
 			<br>
 			<br>
 			<div class = quote_container>
-				<div>
-					<h1 id="content">Random Quote</h1><br>
-					<div onclick="newQuote()" class="quotebtn">
-						<button id="myBtn">Random Quote</button>
-					</div>
+				<div onclick="newQuote()" id="content" class="quotebtn">
+					<button id="myBtn">Random Quote</button>
 					<script src="javascript.js"></script>
 				</div>
 				<div id="myModal" class="modal">
-
-				  <!-- Modal content -->
 				  <div class="modal-content">
 				    <span class="close">&times;</span>
 						<div id="quoteDisplay">
 						</div>
 				  </div>
-
+				  <script src="javascript.js"></script>
 				</div>
 			</div>
 			<div class="dropdown">
@@ -144,37 +143,9 @@
 				</ul>
 			</div>
 		</main>
-
 		<footer>
 		  Created by: Gabe Solomon
 		  <a href= "#top"><i class="fas fa-arrow-alt-circle-up">Back To Top</i></a>
 		</footer>
-		<script>
-			// Get the modal
-			var modal = document.getElementById('myModal');
-
-			// Get the button that opens the modal
-			var btn = document.getElementById("myBtn");
-
-			// Get the <span> element that closes the modal
-			var span = document.getElementsByClassName("close")[0];
-
-			// When the user clicks the button, open the modal 
-			btn.onclick = function() {
-			  modal.style.display = "block";
-			}
-
-			// When the user clicks on <span> (x), close the modal
-			span.onclick = function() {
-			  modal.style.display = "none";
-			}
-
-			// When the user clicks anywhere outside of the modal, close it
-			window.onclick = function(event) {
-			  if (event.target == modal) {
-			    modal.style.display = "none";
-			  }
-			}
-		</script>
 	</body>
 </html>
