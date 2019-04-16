@@ -532,8 +532,8 @@ li{
 }
 
 @media (max-width: 1199px){
-  .flip-card-front, .flip-card-back {
-    font-size: 18px;
+  .cards{
+    display: none;
   }
 }
 
