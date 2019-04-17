@@ -90,9 +90,9 @@ footer i{
 
 .panel p{
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 32px;
   word-spacing: 3px;
-  color: #2A2A2A;
+  color: #2B2B2B;
 }
 
 div.quote_container{
@@ -372,7 +372,7 @@ li{
 
 .panel {
   padding: 0 15px;
-  background-color: #9ad3e2;
+  background-color: #6aafaf;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
