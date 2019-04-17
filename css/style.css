@@ -89,8 +89,9 @@ footer i{
 }
 
 .panel p{
+  padding: 15px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   word-spacing: 3px;
   color: black;
 }
