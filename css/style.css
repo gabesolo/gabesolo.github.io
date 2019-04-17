@@ -342,7 +342,7 @@ li{
   transition: 0.4s;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
-  color: #e2f2e3;
+  color: #fff;
   -webkit-text-stroke: .5px black;
   max-width: 80%;
   display: block;
