@@ -6,7 +6,7 @@
 
 
 body{
-  background: #48A2B7;
+  background: #186071;
   margin-top: -16px;
 }
 
@@ -75,7 +75,7 @@ footer{
   bottom: 0;
   width: 100%;
   margin-top: 20px;
-  background-color: #48A2B7;
+  background-color: #186071;
   border-top: 5px;
   border-bottom: 5px;
   border-color: #F5F5C7;
@@ -356,7 +356,7 @@ li{
 }
 
 .active{
-  background: #48A2B7;
+  background: #186071;
   border: 5px;
   border-radius: 5px;
   border-color: #F5F5C7;
@@ -514,7 +514,7 @@ li{
 
 .topnav {
   overflow: hidden;
-  background-color: #48A2B7;
+  background-color: #186071;
   top: 0;
 }
 
