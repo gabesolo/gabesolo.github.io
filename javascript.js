@@ -67,6 +67,7 @@ function jerryfilter() {
 			ul.appendChild(li);
 		}
 	}
+	document.getElementsById("dropmenu").style.display = "none";
 }
 
 function georgefilter() {
@@ -172,25 +173,6 @@ function nofilter() {
 		}
 	}
 }
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function drop() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
 
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -202,8 +184,10 @@ for (i = 0; i < acc.length; i++) {
     if (panel.style.maxHeight){
       panel.style.maxHeight = null;
     } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
+      panel.style.maxHeight = panel.scrollHeight + 50 + "px";
+    }
+    var bottom = panel.previousElementSibling;
+    bottom.scrollIntoView(true);
   });
 }
 
@@ -214,7 +198,6 @@ function navmenu() {
   } else {
     x.className = "topnav";
   }
-  document.getElementById("expand").style.transform = "rotate(180deg)";
 }
 
 // Get the modal
@@ -241,6 +224,12 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+
+document.getElementById("quotebtn").addEventListener("focusout", closemodal);
+
+function closemodal() {
+	modal.style.display = "none";
 }
 
 var acc = document.getElementsByClassName("accordion");
