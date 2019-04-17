@@ -63,7 +63,7 @@ a.skip:focus{
 h1{
   font-family: 'Ubuntu', sans-serif;
   font-size: 44px;
-  color: #2C3E50;
+  color: black;
 }
 
 footer{
@@ -159,7 +159,7 @@ li{
 }
 
 .banner{
-  background: #6aafaf;
+  background: rgba(200, 250, 250, 0.8);
   border-top: 5px;
   border-bottom: 5px;
   border-color: #F5F5C7;
@@ -431,7 +431,7 @@ li{
 }
 
 .flip-card-front {
-  background: #6aafaf;
+  background: rgba(200, 250, 250, 0.8);
   border: 5px;
   border-radius: 5px;
   border-color: #F5F5C7;
@@ -441,12 +441,12 @@ li{
   font-size: 30px;
   z-index: 2;
   font-family: 'Josefin Sans', sans-serif;
-  color: #2C3E50;
+  color: black;
 }
 
 .flip-card-back {
-  background-color: #6aafaf;
-  color: #2C3E50;
+  background: rgba(200, 250, 250, 0.8);
+  color: black;
   transform: rotateY(180deg);
   z-index: 1;
   border: 5px;
